@@ -1,0 +1,43 @@
+.row{
+    margin-left: 20px;
+    color: white;
+}
+
+.movieposter{
+    object-fit: contain;
+    width: 100%;
+    max-height: 100px;
+    margin-right: 10px;
+    transition: transform 450ms;
+}
+
+.movieposter:hover{
+    transform: scale(1.10)
+}
+
+.movieposters{
+    display: flex;
+    overflow-y: hidden;
+    overflow-x: scroll;
+    padding: 20px;
+}
+
+.movieposters::-webkit-scrollbar{
+    display: none;
+}
+
+.netposter{
+    object-fit: contain;
+    width: 100%;
+    max-height: 250px;
+    margin-right: 10px;
+    transition: transform 450ms;
+}
+
+.netposter:hover{
+    transform: scale(1.10)
+}
+
+.yt{
+    margin-left: -10px;
+}

@@ -1,0 +1,19 @@
+.Nav{
+    position: fixed;
+    top: 0;
+    width: 100%;
+
+    padding:20px 0 15px 30px;
+
+    transition-timing-function: ease-in;
+    transition: all 0.8s;
+}
+
+.navlogo{
+    width: 100px;
+    object-fit: contain;
+}
+
+.navback{
+    background-color: #111;
+}
